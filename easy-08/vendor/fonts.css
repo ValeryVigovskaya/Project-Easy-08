@@ -1,0 +1,15 @@
+@font-face {
+  src: url("./fonts/Prompt-Regular.woff2") format("woff2"),
+    url("./fonts/Prompt-Regular.woff") format("woff");
+  font-family: "Prompt";
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  src: url("./fonts/Prompt-Medium.woff2") format("woff2"),
+    url("./fonts/Prompt-Medium.woff") format("woff");
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 500;
+}

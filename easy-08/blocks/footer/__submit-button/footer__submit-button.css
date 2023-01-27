@@ -1,0 +1,19 @@
+.footer__submit-button {
+  font-family: "Prompt", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: 0.5px solid #ffffff;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #0a0a0a;
+  background-color: #ffffff;
+  margin: 0;
+  width: 108px;
+  padding: 12px 24px;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  align-self: center;
+  justify-self: end;
+}

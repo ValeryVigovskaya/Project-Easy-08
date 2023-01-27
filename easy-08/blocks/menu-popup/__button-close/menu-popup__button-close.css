@@ -1,0 +1,7 @@
+.menu-popup__button-close {
+    background: no-repeat transparent center/48px url("../../../images/close.svg");
+    width: 48px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+}

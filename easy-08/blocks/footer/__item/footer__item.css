@@ -1,0 +1,16 @@
+.footer__item {
+  margin: 0;
+  font-family: "Prompt", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 592px;
+  padding: 12px 24px;
+  color: #666666;
+  background-color: transparent;
+  border: 0.5px solid #FFFFFF;
+  grid-column: 1/1;
+  grid-row: 1/1;
+  align-self: center;
+}

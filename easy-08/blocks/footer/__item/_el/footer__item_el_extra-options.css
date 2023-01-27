@@ -1,0 +1,12 @@
+.footer__item_el_extra-options {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.footer__item_el_extra-options:checked + .footer__pseudo-checkbox {
+    background: no-repeat center url(../../../../images/Chek.svg);
+    background-size: 12px 8px;
+} 

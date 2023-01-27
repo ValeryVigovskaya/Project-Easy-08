@@ -1,0 +1,19 @@
+.header__button {
+  width: 350px;
+  min-height: 48px;
+  background: #0a0a0a;
+  border: 0.5px solid #0a0a0a;
+  font-family: "Prompt", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: center;
+  margin-top: 215px;
+
+}

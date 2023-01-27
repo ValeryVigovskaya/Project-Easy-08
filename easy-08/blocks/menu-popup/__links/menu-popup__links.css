@@ -1,0 +1,7 @@
+.menu-popup__links {
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}

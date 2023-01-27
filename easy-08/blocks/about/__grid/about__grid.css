@@ -1,0 +1,7 @@
+.about__grid {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-auto-rows: minmax(96px, auto);
+    row-gap: 80px;
+}

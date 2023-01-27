@@ -1,0 +1,10 @@
+.footer__copyright {
+  font-family: "Prompt", Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}

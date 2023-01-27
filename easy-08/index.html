@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIVENCHY</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <img
+        src="./images/header.png"
+        alt="Matthew M. Williams - american designer"
+        class="header__img"
+      />
+      <h1 class="header__title">
+        GIVENCHY 
+        SPRING SUMMER 2021 
+        BY MATTHEW M. WILLIAMS
+      </h1>
+      <button type="submit" class="header__button">
+        Subscribe to collection’s news
+      </button>
+      <div class="header__menu">
+        <button type="button" class="header__button-popup-open"></button>
+        <p class="header__menu-title">Menu</p>
+      </div>
+    </header>
+    <main>
+      <section class="about" id="about">
+        <div class="about__grid">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">
+            The Spring-Summer ‘21 collection explores Givenchy in the form of a
+            stream of consciousness for Williams and is a ‘sampler’ of what is
+            to come.
+          </p>
+          <figure class="about__blockquote">
+            <blockquote cite="#" class="about__blockquote">
+              <p class="about__quote">
+                “To me, fashion expresses a point of view where formality and
+                informality, construction and comfort co-exist. My ethos is
+                about the luxury of infusing clothes with your own personality,
+                not being worn by them,”
+              </p>
+            </blockquote>
+            <p class="about__autor">Matthew M. Williams.</p>
+          </figure>
+          <img src="./images/about1.png" class="about__img" alt="" />
+          <img src="./images/about2.png" class="about__img" alt="" />
+          <p class="about__description">
+            Matthew M. Williams reveals his vision with help from an all-star
+            lineup of likeminded artists. The Creative Director called on close
+            friends in his tight-knit community of artists. Kendall Jenner,
+            Bella Hadid, Playboi Carti and the supermodels Anok Yai and Liam
+            Powers were each invited to put their own stamp on key pieces, the
+            better to highlight the importance of cultivating a powerful
+            personal style.
+          </p>
+          <figure class="about__blockquote">
+            <blockquote cite="#" class="about__blockquote">
+              <p class="about__quote">
+                “In each of these portraits, a strong character wears a look
+                that reflects who they are: they’re the ones who bring the
+                clothes to life.”
+              </p>
+            </blockquote>
+            <figcaption class="about__autor">Matthew M. Williams.</figcaption>
+          </figure>
+          <img src="./images/about3.png" class="about__img" alt="" />
+        </div>
+      </section>
+      <section class="looks" id="looks">
+        <h2 class="about__title">looks</h2>
+        <ul class="looks__list">
+          <li class="looks__item">
+            <img src="./images/look1.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look2.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look3.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look4.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look5.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look6.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look7.png" alt="" class="looks__img" />
+          </li>
+          <li class="looks__item">
+            <img src="./images/look8.png" alt="" class="looks__img" />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer" id="subscribe">
+      <form class="footer__form">
+        <legend class="footer__title">
+          Subscribe to the newsletterand be the first to know about new
+          collection’s drop date and news
+        </legend>
+        <fieldset class="footer__fieldset">
+          <input
+            type="email"
+            class="footer__item"
+            name="email"
+            id="email"
+            placeholder="Eneter your email  here"
+            value=""
+          />
+          <button type="submit" class="footer__submit-button">Submit</button>
+          <label for="offer" class="footer__checkbox">
+            <input
+              type="checkbox"
+              name="extra-option"
+              id="offer"
+              class="footer__item footer__item_el_extra-options"
+            />
+            <span class="footer__pseudo-checkbox"></span>
+            <span class="footer__checkbox-text"
+              >I consent to the processing of my data by GIVENCHY in accordance
+              with the conditions set forth in the Privacy Policy
+            </span>
+          </label>
+        </fieldset>
+      </form>
+      <p class="footer__copyright">&#169; 2021, Givenchy. Some rights reserved</p>
+    </footer>
+    <div class="menu-popup" id="menu-popup">
+      <button type="button" class="menu-popup__button-close"></button>
+      <nav class="menu-popup__links">
+        <a href="index.html#about" class="menu-popup__link">About</a>
+        <a href="index.html#looks" class="menu-popup__link">Looks</a>
+        <a href="index.html#subscribe" class="menu-popup__link">subscribe</a>
+      </nav>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
